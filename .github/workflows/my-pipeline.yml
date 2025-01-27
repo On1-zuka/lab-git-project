@@ -27,3 +27,6 @@ jobs:
 
       - name: Run black
         run: black src/ tests/
+
+      - name: Run tests
+        run: pytest

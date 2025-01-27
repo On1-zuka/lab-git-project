@@ -1,4 +1,4 @@
-from src.utils import add_numbers, multiply_numbers
+from src import add_numbers, multiply_numbers
 
 
 def test_add_numbers(a, b):
